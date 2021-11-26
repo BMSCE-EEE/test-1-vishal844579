@@ -1,1 +1,18 @@
- 
+GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+gcc -g p0original.c
+Undefined command: "gcc".  Try "help".
+(gdb) b main
+Breakpoint 1 at 0x560a8da0063e: file p0original.c, line 4.
+(gdb) r
+Starting program: /home/runner/test-1-vishal844579/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p0original.c:4
+4     printf("VISHAL AWATI\n");
+(gdb) n
+VISHAL AWATI
+5     return 0;
+(gdb) c
+Continuing.
+[Inferior 1 (process 347) exited normally]
+(gdb) 
